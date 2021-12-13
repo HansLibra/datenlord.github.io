@@ -6,14 +6,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="keywords" content="DatenLord,Docs,Documentation,Quick Start,Architecture,DatenLord Optimization Strategy,Target Usage Scenarios,deploy DatenLord,use DatenLord,Road Map">
-  <meta name="description" content="The DatenLord document page describes in detail what DatenLord is, why DatenLord is selected, the optimization strategy and usage scenario of DatenLord, and how to deploy and use DatenLord.">
-  <link rel="icon" href="../images/favicon.ico" type="image/x-icon"/>
+  <meta name="keywords"
+    content="DatenLord,Docs,Documentation,Quick Start,Architecture,DatenLord Optimization Strategy,Target Usage Scenarios,deploy DatenLord,use DatenLord,Road Map">
+  <meta name="description"
+    content="The DatenLord document page describes in detail what DatenLord is, why DatenLord is selected, the optimization strategy and usage scenario of DatenLord, and how to deploy and use DatenLord.">
+  <link rel="icon" href="../images/favicon.ico" type="image/x-icon" />
   <link type="text/css" rel="styleSheet" href="../css/index.css?v=20211211" />
   <link type="text/css" rel="styleSheet" href="../css/reset.css?v=20211211" />
   <link type="text/css" rel="styleSheet" href="../css/main.css?v=20211211" />
   <link rel="stylesheet" href="../css/vs2015.min.css">
-  <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.5.1.min.js"></script>
+  <script src="../js/jquery.js"></script>
   <script src="../js/highlight.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
   <style>
@@ -226,7 +228,7 @@
 
     .docs_con {
       display: block;
-	  overflow-x: hidden;
+      overflow-x: hidden;
     }
 
     .mapText {
@@ -243,7 +245,6 @@
       line-height: 32px;
       margin-bottom: 30px;
     }
-
   </style>
 </head>
 
@@ -520,7 +521,8 @@ kubectl apply -f datenlord-demo.yaml
                     <div style="clear: both"></div>
                   </div>
                   <div>
-                    <img src="../images/line2.png" style="    position: absolute;margin-top: 20px; margin-left: -228px;">
+                    <img src="../images/line2.png"
+                      style="    position: absolute;margin-top: 20px; margin-left: -228px;">
                   </div>
                 </div>
               </div>
@@ -552,7 +554,8 @@ kubectl apply -f datenlord-demo.yaml
                   <div class="ellipse">
                     <p>0.1</p>
                   </div>
-                  <p style="margin: 0 0 0 20px" class="mapText">Refactor async fuse lib to provide clear async APIs, which is used by
+                  <p style="margin: 0 0 0 20px" class="mapText">Refactor async fuse lib to provide clear async APIs,
+                    which is used by
                     the datenlord filesystem.</p>
                 </div>
                 <div style="margin: 23px 0 0 0;display: flex">
@@ -565,7 +568,8 @@ kubectl apply -f datenlord-demo.yaml
                   <div class="ellipse">
                     <p>0.3</p>
                   </div>
-                  <p style="margin: 0 0 0 20px" class="mapText">Make fuse lib fully asynchronous. Switch async fuse lib’s device
+                  <p style="margin: 0 0 0 20px" class="mapText">Make fuse lib fully asynchronous. Switch async fuse
+                    lib’s device
                     communication channel from blocking I/O to io_uring.</p>
                 </div>
                 <div style="margin: 23px 0 0 0;display: flex">
@@ -578,7 +582,8 @@ kubectl apply -f datenlord-demo.yaml
                   <div class="ellipse">
                     <p>1.0</p>
                   </div>
-                  <p style="margin: 0 0 0 20px" class="mapText">Complete Tensorflow k8s integration and finish performance comparison
+                  <p style="margin: 0 0 0 20px" class="mapText">Complete Tensorflow k8s integration and finish
+                    performance comparison
                     with raw fs.</p>
                 </div>
               </div>
